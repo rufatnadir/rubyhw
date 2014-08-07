@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿#	script_13_01.rb
 =begin
 a.	Create 4 empty arrays:
@@ -44,3 +45,4 @@ puts "Size of array 'contacts' is: #{contacts.size}"
 puts "First item of array 'contacts' is: #{contacts.first}"
 puts "Last item of array 'contacts' is: #{contacts.last}"
 puts "Is array 'contacts' empty?: #{contacts.empty?}\n\n"
+=======
