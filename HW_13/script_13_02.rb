@@ -9,4 +9,4 @@ Insert data into arrays:
 
 days = (01..31).to_a
 week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-
+months = ["January", "February"]
