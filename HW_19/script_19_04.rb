@@ -18,6 +18,7 @@ For hash of hashes "contacts" provide following:
 	15.	Removes all elements from this hash
 =end
 
+
 contacts = {
     m_freeman: {id: 1, first_name: "Magee", last_name: "Freeman", phone: "415 555-4597", age: 33, email: "magee.freeman@gmail.com"},
     r_haynes: {id: 2, first_name: "Reed", last_name: "Haynes", phone: "415 555-4657", age: 56, email: "reed_haynes@hotmail.com"},
@@ -40,6 +41,8 @@ contacts = {
     a_wells: {id: 19, first_name: "Abel", last_name: "Wells", phone: "415 555-3298", age: 25, email: "neque.venenatis@gmail.com"},
     k_knox: {id: 20, first_name: "Kasper", last_name: "Knox", phone: "650 555-4469",age: 30, email: "kknox@aenean.org"}
 }
+
+
 puts "Class of hash 'contacts' is: #{contacts.class}"
 puts "Size of hash 'contacts' is: #{contacts.size}"
 puts "All keys of hash 'contacts' is: #{contacts.keys}"

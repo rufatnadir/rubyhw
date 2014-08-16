@@ -42,3 +42,5 @@ contacts = {
     a_wells: {id: 19, first_name: "Abel", last_name: "Wells", phone: "415 555-3298", age: 25, email: "neque.venenatis@gmail.com"},
     k_knox: {id: 20, first_name: "Kasper", last_name: "Knox", phone: "650 555-4469",age: 30, email: "kknox@aenean.org"}
 }
+
+puts contacts
