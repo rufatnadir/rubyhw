@@ -10,5 +10,5 @@ def my_method_param(name) #Define method "my_method_param"
   print "Hello #{name}!"
 end
 
-my_method_param ("Rufat")
+my_method_param("Rufat")
 

@@ -6,7 +6,7 @@ c.	Call this method with parameter "name" and value "Some other Name"
 =end
 
 def my_method_param_default(name="John")
-  print "My name is #{name}"
+  puts "My name is #{name}"
 end
 
 my_method_param_default()
