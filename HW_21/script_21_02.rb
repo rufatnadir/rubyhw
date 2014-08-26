@@ -34,19 +34,19 @@ url_a = "http://www.apple.com"
 doc_a = Nokogiri::HTML(open(url_a))
 title_a = doc_a.css("//title text()")
 puts "#{site_a} title is: " + title_a.to_s
-puts "Title length is: #{title_a.to_s.length}"
+puts "Title length is: #{title_a.to_s.length} characters"
 
 site_m = "Microsoft"
 url_m = "http://www.microsoft.com"
 doc_m = Nokogiri::HTML(open(url_m))
 title_m = doc_m.css("//title text()")
 puts "#{site_m} title is: " + title_m.to_s
-puts "Title length is: #{title_m.to_s.length}"
+puts "Title length is: #{title_m.to_s.length} characters"
 
-site_a = "Apple"
-url_a = "http://www.apple.com"
-doc_a = Nokogiri::HTML(open(url_a))
-title_a = doc_a.css("//title text()")
-puts "#{site_a} title is: " + title_a.to_s
-puts "Title length is: #{title_a.to_s.length}"
+site_i = "Intel"
+url_i = "http://www.intel.com"
+doc_i = Nokogiri::HTML(open(url_i))
+title_i = doc_i.css("//title text()")
+puts "#{site_i} title is: " + title_i.to_s
+puts "Title length is: #{title_i.to_s.length} characters"
 
