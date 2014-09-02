@@ -23,14 +23,16 @@ element.send_keys(keys)                                         #Send keystroke 
 button_search = agent.find_element(:id, 'searchbtn').click      #find 'Search' button and click on it
 
 body = agent.page_source.to_s
+open('result.html', 'w') do |f|
+  f.puts body
+end                                                             #Save output of body to html file
 
-
-agent.save_screenshot "clf.png"
+agent.save_screenshot "clf.png"                                 #Save screenshot of the page
 
 #TO DO
 # Copy first 5 links on page and paste them to some document or var
 #link_1 = agent.find_element(:class, 'hdrlnk')
-link_2 = agent.find_element(:partial_link_text, 'audi')
+#link_2 = agent.find_element(:partial_link_text, 'audi')
 #puts link_2
 
 # Close browser
