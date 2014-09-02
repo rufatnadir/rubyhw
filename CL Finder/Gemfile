@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'mechanize'
+#gem 'mechanize'
 gem 'selenium-webdriver'
-gem 'nokogiri', '1.5.6'
+gem 'nokogiri'
 
