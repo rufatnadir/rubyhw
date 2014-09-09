@@ -22,11 +22,12 @@ element = agent.find_element(:id, 'query')                      #Find search fie
 element.send_keys(keys)                                         #Send keystroke "Camry" to search field
 button_search = agent.find_element(:id, 'searchbtn').click      #find 'Search' button and click on it
 
+
+
 body = agent.page_source.to_s
 open('result.html', 'w') do |f|
-  f.puts body
-end                                                             #Save output of body to html file
-
+  f.puts body                                                   #Save output of body to html file
+end
 agent.save_screenshot "clf.png"                                 #Save screenshot of the page
 
 #TO DO

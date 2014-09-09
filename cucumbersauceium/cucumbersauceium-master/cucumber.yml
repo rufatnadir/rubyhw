@@ -1,0 +1,1 @@
+default: --format rerun -o tmp/rerun.txt --format pretty -r features/
